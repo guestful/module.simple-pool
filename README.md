@@ -1,7 +1,18 @@
 Guestful :: Module :: Simple Object Pool
 ========================================
 
-And in your POM:
+Add in your POM:
+
+```
+<repositories>
+    <repository>
+        <id>bintray</id>
+        <url>http://dl.bintray.com/guestful/maven</url>
+    </repository>
+</repositories>
+```
+
+and
 
 ```
 <dependency>
